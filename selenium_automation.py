@@ -2,7 +2,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 
-service = Service(executable_path='D:/WolfSolutions/selenium/chromedriver.exe')
+service = Service(executable_path='./chromedriver.exe')
 options = webdriver.ChromeOptions()
 driver = webdriver.Chrome(service=service, options=options)
 
